@@ -1,0 +1,24 @@
+@import '../geral/variaveis';
+
+#curiosidades {
+    padding: 1rem;
+    margin: 5px;
+    text-align: center;
+    .texto {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    h3 {
+        color: $cor-primaria;
+        font-size: $tamanho-do-texto/2.5;
+    }
+    h4 {
+        color: $cor-quartenaria;
+        font-size: $tamanho-do-texto/3;
+    }
+    p {
+        margin-top: 5px;
+        color: $cor-primaria;
+    }
+}
